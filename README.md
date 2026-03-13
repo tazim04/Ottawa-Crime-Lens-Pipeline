@@ -6,6 +6,14 @@ public crime data for the CrimeLens platform.
 This service ingests data from the Ottawa Police's [Criminal Offesnes Open Data public API](https://data.ottawapolice.ca/datasets/0356deb79cfd4488956116fda366df38_0/explore?showTable=true), transforms it into
 a normalized domain model, and stores it in a PostGIS database.
 
+This data is then consumed by the following user-facing applications:
+
+- **CrimeLens Query Service**  
+  https://github.com/tazim04/Ottawa-Crime-Lens-Query
+
+- **CrimeLens Frontend**  
+  https://github.com/tazim04/ottawa-crime-lens-frontend
+
 ---
 
 ## Running the Application (with Docker)
